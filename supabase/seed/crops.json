@@ -1,0 +1,10 @@
+[
+  { "kind": "seed.sunflower", "displayName": "Sunflower", "growthHours": 24, "harvestYield": 3 },
+  { "kind": "seed.lavender", "displayName": "Lavender", "growthHours": 36, "harvestYield": 4 },
+  { "kind": "seed.tea", "displayName": "Tea Leaf", "growthHours": 30, "harvestYield": 3 },
+  { "kind": "seed.tulip", "displayName": "Tulip", "growthHours": 20, "harvestYield": 2 },
+  { "kind": "seed.fern", "displayName": "Fern", "growthHours": 18, "harvestYield": 2 },
+  { "kind": "seed.peony", "displayName": "Peony", "growthHours": 42, "harvestYield": 5 },
+  { "kind": "seed.mint", "displayName": "Mint", "growthHours": 16, "harvestYield": 2 },
+  { "kind": "seed.blueberry", "displayName": "Blueberry", "growthHours": 28, "harvestYield": 4 }
+]
