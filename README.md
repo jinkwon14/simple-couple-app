@@ -37,6 +37,18 @@ A production-ready vertical slice of the LoveGarden couple experience. This repo
    # or, to apply against remote (danger!), see docs/supabase-deploy.md
    ```
 
+   The seed migrations provision a demo couple with two confirmed users for
+   quick testing:
+
+   | Email             | Password       | Notes                             |
+   | ----------------- | -------------- | --------------------------------- |
+   | amy@example.com   | lovelygarden   | Amy in America/Los_Angeles (tz)   |
+   | ben@example.com   | lovelygarden   | Ben in America/New_York (tz)      |
+
+   Both accounts belong to the same couple and have garden plots, a pet,
+   missions, and a whiteboard session ready to explore after you sign in from
+   the app.
+
 4. **Install dependencies**
    ```bash
    pnpm install
