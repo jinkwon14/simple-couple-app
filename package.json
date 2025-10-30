@@ -1,0 +1,22 @@
+{
+  "name": "lovegarden-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@8.15.4",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter app start",
+    "lint": "pnpm --filter app lint",
+    "test": "pnpm --filter app test",
+    "build": "pnpm --filter app expo export --platform ios,android",
+    "migrate:up": "supabase db push",
+    "migrate:down": "echo 'Use supabase migration revert flow manually' && exit 1",
+    "supabase:functions:serve": "supabase functions serve",
+    "seed": "supabase db remote commit && supabase db reset --db-url $SUPABASE_DB_URL"
+  },
+  "devDependencies": {
+    "supabase": "^1.161.3"
+  }
+}

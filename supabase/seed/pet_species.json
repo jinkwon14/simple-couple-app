@@ -1,0 +1,12 @@
+[
+  { "name": "Lumen Fox", "rarity": "common", "traits": ["glow", "dash"] },
+  { "name": "Misty Bun", "rarity": "common", "traits": ["soothe", "hop"] },
+  { "name": "Solar Puffin", "rarity": "common", "traits": ["warmth", "chirp"] },
+  { "name": "Willow Lynx", "rarity": "rare", "traits": ["prowl", "guard"] },
+  { "name": "Nebula Pup", "rarity": "rare", "traits": ["spark", "zoom"] },
+  { "name": "Aurora Koi", "rarity": "rare", "traits": ["glide", "shimmer"] },
+  { "name": "Stardust Fawn", "rarity": "ultra", "traits": ["trail", "sprout"] },
+  { "name": "Celeste Drake", "rarity": "ultra", "traits": ["soar", "glow"] },
+  { "name": "Bloom Chameleon", "rarity": "common", "traits": ["blend", "twirl"] },
+  { "name": "Echo Sprite", "rarity": "rare", "traits": ["repeat", "hide"] }
+]
